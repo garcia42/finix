@@ -7,7 +7,7 @@ http://ec2-54-215-162-35.us-west-1.compute.amazonaws.com
 - Password: guest
 - Table: values
 # Features!
-  - URL of the form http://ec2-54-215-162-35.us-west-1.compute.amazonaws.com/values/<id>
+  - URL of the form http://ec2-54-215-162-35.us-west-1.compute.amazonaws.com/values/ <id>
         List of available calls, if put or post include body
             -**POST**
             -**GET**
@@ -20,4 +20,4 @@ http://ec2-54-215-162-35.us-west-1.compute.amazonaws.com
 # Lacking
 - No Whitelisting, available to incoming traffic from any ssh or http on ports 8080 and 9000
 - No scripts to configure ec2 cluster
-
+u
