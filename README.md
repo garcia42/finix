@@ -1,5 +1,4 @@
 # Finix Key Value Store Documentation
-http://ec2-54-215-162-35.us-west-1.compute.amazonaws.com
 # Connect to Db!
 - host: http://ec2-54-215-162-35.us-west-1.compute.amazonaws.com
 - db: finix
@@ -21,3 +20,11 @@ List of available calls, if put or post include body:
 # Lacking
 - No Whitelisting, available to incoming traffic from any ssh or http on ports 8080 and 9000
 - No scripts to configure ec2 cluster
+
+# Test get call
+http://ec2-54-215-162-35.us-west-1.compute.amazonaws.com/values/yo
+
+Other already present keys:
+- hello
+- joe
+- yo
