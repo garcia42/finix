@@ -8,11 +8,12 @@
 # Features!
   - URL of the form ec2-54-215-162-35.us-west-1.compute.amazonaws.com/values/{id}
         
-List of available calls, if put or post include body:
-            - **POST**
-            - **GET**
-            - **PUT**
-            - **DELETE**
+List of available calls, can use postman to call other REST methods, (if put or post include body):
+
+- **POST**
+- **GET**
+- **PUT**
+- **DELETE**
   - Nginx listening on port 8080 and 80
   - Tomcat running on port 9000
   - PostGres running on port 5432
