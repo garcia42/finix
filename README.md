@@ -1,5 +1,5 @@
 # Finix Key Value Store Documentation
-# Connect to Db!
+# Connect to Postgres Db!
 - host: http://ec2-54-215-162-35.us-west-1.compute.amazonaws.com
 - db: finix
 - User: other_user
